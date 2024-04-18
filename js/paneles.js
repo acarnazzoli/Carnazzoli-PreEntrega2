@@ -11,7 +11,7 @@ class Panel {
 
 
 class PedidoPaneles {
-    constructor (pedido, linea, cantidad, precioUnitario) {
+    constructor (pedido, linea, cantidad, precioUnitario, fecha) {
         this.pedido = pedido;
         this.linea =  linea;
         this.cantidad = cantidad;
@@ -59,12 +59,8 @@ const paneles = [
 paneles.forEach(objeto => {
     objeto.class = Panel;
 }); 
-//console.log (paneles[0]);
-
-//Creación de otro array utilizando map
 
 
-
-// Agregar los elementos del array original al nuevo array vacío
-
+// AGREGAR AL PROYECTO AGREGAR UN TEXTO Y
+// CAMBIAR EL COLOR DE FONDO LOS FINES DE SEMANA CON DOM USANDO CREATE ELEMENT
 
